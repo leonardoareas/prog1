@@ -14,7 +14,7 @@ int main()
      printf("Não pode votar\n");
      }
     
-         else if (idade >=16 || idade <= 17 ||  idade > 70)
+         else if (idade ==16 || idade == 17 ||  idade > 70)
          {
           printf("Voto facultativo\n");
          }
